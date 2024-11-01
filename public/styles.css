@@ -1,0 +1,31 @@
+body{
+background-color: rgb(160, 202, 92);
+margin: 0px;
+}
+
+.chatbox{
+    background-color: aqua;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.user-input{
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.message{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.user-message{
+    font-weight: bold;
+}
+
+.bot-message{
+    font-weight: normal;
+}
