@@ -15,22 +15,40 @@
 <body>
  <div class="row">
     <div class="col-sm-6">
-        <div class="col-sm-6">
-            <h1>Kysele kokeisiin</h1>
-            <h2>Syötä kuva kirjan sivusta:</h2>
-            <div>
-                <input id="image-input" type="file" multiple>
-                <button id="send-images-button" class="btn btn-dark" >Lähetä tiedostot</button>
-            </div>
- <h1>Minä Olen Oppilas Helperin Nerd</h1>
+        <h1>Minä Olen Oppilas Helperin Nerd</h1>
 
     <div id="chatbox" class="chatbox">
 <!--Tähän tulee chat viestit-->
     
-
+    </div>
     <input id="user-input-chatbox" class="user-input" type="text" placeholder="Vastaa Nerdin Kysymykseen">
     <button id="send-button-chatbox">Lähetä</button>
     </div>
+
+
+        <div class="col-sm-6">
+            <h1>Kysele kokeisiin</h1>
+            <h2>Syötä kuva kirjan sivusta:</h2>
+            <div class="input-container">
+                <input id="image-input" type="file" multiple>
+                <button id="send-images-button" class="btn btn-dark" >Lähetä tiedostot</button>
+            </div>
+
+
+            <div class="chat-container"> 
+                <div id="omaopebox" class="chatbox">
+                  <!-- ChatGPT answer will appear here -->
+                  </div>
+                
+                  <div class="input-container">
+                  <input type="text" id="answer-input" class="user-input" placeholder="Anna vastaus">
+                  
+                  
+                  </div>
+                <button id="send-answer-button" class="btn btn-dark">Lähetä</button>
+              </div>
+ 
+
     </div>
     </div>
 </body>

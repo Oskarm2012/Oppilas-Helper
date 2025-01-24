@@ -1,6 +1,7 @@
 body{
 background-color: rgb(160, 202, 92);
 margin: 0px;
+padding: 20px;
 }
 
 .chatbox{
@@ -8,6 +9,7 @@ margin: 0px;
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .user-input{
@@ -15,6 +17,7 @@ margin: 0px;
     border: none;
     padding-bottom: 10px;
     padding-top: 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .message{
@@ -29,3 +32,19 @@ margin: 0px;
 .bot-message{
     font-weight: normal;
 }
+
+#image-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;  /* Lisää tämä */
+    width: 100%;
+    background-color: cyan;
+    width: 100%;
+    border-radius: 5px;
+}
+
